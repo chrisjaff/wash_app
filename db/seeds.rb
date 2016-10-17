@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Post.destroy_all
+Comment.destroy_all
+
+post1 = Post.create(user_name:"Steve")
+comments1 = Comment.create(user_name:"Bob", body:"poeprpeop")
+machine1 = Machine.create(name:"Washytoshy", model:"1000oPIP", features: "Wash responsibly")
