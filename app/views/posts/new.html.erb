@@ -1,0 +1,13 @@
+<h1>New Machine</h1>
+
+<%= form_for @post do |f| %>
+<%= f.label :machine_name %>
+<%= f.text_field :user_name %>
+
+<%= f.label :model %>:
+<%= f.text_field :model %><br />
+
+<%= f.label :features %>:
+<%= f.text_area :features %><br />
+<%= f.submit %>
+<% end %>

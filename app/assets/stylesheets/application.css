@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+ body {
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvIxuO9iiJaVgBvQe1-SUOfzPSRt9DywZN-PLrVM5ZgINkRq6ihTQ1w");
+     background-repeat: no-repeat;
+ }
+.container{
+display: flex;
+flex-flow: wrap;
+width: 1000px;
+height: 1000px;
+}
+.top{
+height: 300px;;
+width: 1000px;
+}
+.mid {
+height: 300px;
+width: 1000px;
+text-align: center;
+background-color: #00ccff;
+}
+.bot{
+height: 300px;
+width: 950px;
+}
