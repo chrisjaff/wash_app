@@ -1,13 +1,20 @@
 <div class="container">
 <div class="top"></div>
-<div class="mid"><nav>
-  <h1>WashApp</h1>
+<div class="mid">
   <nav>
+  <h1>WashApp</h1>
   <h2><%= link_to "News" %>
     <%= link_to "Meetups"%>
     <%= link_to "New Post", new_post_path(@post) %>
     </h2>
 </nav>
+</div>
+<div class="posts-list">
+  <% @posts.each do |post| %>
+  <h2><%= post.machine_name %></h2>
+  <%=post.model%><br>
+  <%=post.features%>
+<%end%>
 </div>
 <div class="bot"> </div>
 </div>

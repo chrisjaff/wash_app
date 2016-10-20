@@ -1,0 +1,11 @@
+<div class="mid">
+<h1><%= @post.machine_name %></h1>
+<div>
+  <%= @post.model %><br>
+  <%= @post.machine_name %>
+  <img src="<%=@post.img_url%>"/><br>
+  <%= link_to "Home", root_path %><br>
+  <%= link_to "Edit Machine", edit_post_path(@post) %><br>
+  <%= link_to "Delete", post_path(@post), method: :delete %>
+</div>
+</div>
