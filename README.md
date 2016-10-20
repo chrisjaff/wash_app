@@ -41,4 +41,4 @@ I was unable to create pages for the news and meet ups. They would function just
 
 Lessons Learned:
 
-I spent a long time learning how create models that met the specifications needed. I went into the project thinking that I knew what the models were used for and how it interacts with the database. I quickly found out that I was wrong and spent most of the second project day learning how to edit models with migrations, and edit the schema to match the migrations. Shortly their after I also realized I made the
+I spent a long time learning how create models that met the specifications needed. I went into the project thinking that I knew what the models were used for and how it interacts with the database. I quickly found out that I was wrong and spent most of the second project day learning how to edit models with migrations, and edit the schema to match the migrations. Shortly their after I had realized I didn't know how to use fully use CRUD functionality so I spent most of the remainder learning that piece by piece.
