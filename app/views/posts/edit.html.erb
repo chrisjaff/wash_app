@@ -1,0 +1,17 @@
+<div class="mid">
+<h1>Edit Machine</h1>
+<%= form_for @post do |f| %>
+<%= f.label :machine_name %>
+<%= f.text_field :machine_name %>
+
+<%= f.label :model %>:
+<%= f.text_field :model %><br />
+
+<%= f.label :features %>:
+<%= f.text_area :features %><br />
+
+<%= f.label :img_url %>:
+<%= f.text_field :img_url %><br>
+<%= f.submit %>
+<% end %>
+</div>
